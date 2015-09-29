@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Roundabout App Configuration
+    link(rel="stylesheet", type="text/css", href="/bower/pebble-slate/dist/css/slate.min.css")
+    link(rel="stylesheet", type="text/css", href="/public/style.css")
+    script(src="/bower/pebble-slate/dist/js/slate.min.js")
+    script(src="/public/app.js")
+          
+  body
+    h1.title Configuration
+
+    div.item-container
+      div.item-container-content
+        label.item Show unfilled rings for remaining minutes
+          input#show-remaining-minutes.item-toggle(type="checkbox")            
+        label.item Show padded zero hour
+          input#show-padded-zero.item-toggle(type="checkbox")
+            
+    div.item-container
+      div.button-container
+        input#submit-button.item-button(type="button", value="SAVE")

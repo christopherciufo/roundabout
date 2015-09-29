@@ -1,0 +1,19 @@
+{
+  "uuid": "cfa85c3c-4add-47f7-9953-6a18b76cab27",
+  "shortName": "Roundabout",
+  "longName": "roundabout",
+  "capabilities": [ "configurable" ],
+  "companyName": "Christopher Ciufo",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

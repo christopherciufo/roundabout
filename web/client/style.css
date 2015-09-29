@@ -1,0 +1,9 @@
+.title {
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #888888;
+  text-align: center;
+}

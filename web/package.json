@@ -1,0 +1,19 @@
+{
+  "name": "roundabout-web",
+  "version": "1.0.0",
+  "description": "Web interface for the roundabout pebble watchface",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christopherciufo/roundabout"
+  },
+  "author": "Christopher Ciufo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherciufo/roundabout/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0"
+  }
+}
