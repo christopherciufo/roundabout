@@ -6,7 +6,7 @@ Pebble.addEventListener('ready', function(e) {
 
 Pebble.addEventListener('showConfiguration', function(e) {
   // Show config page
-  Pebble.openURL('localhost:3000');
+  Pebble.openURL('http://christopherciufo.com:3030');
 });
 
 Pebble.addEventListener('webviewclosed', function(e) {
